@@ -1,0 +1,140 @@
+
+body {
+	background-image:url(../img/frozen.jpg);
+	background-size:100%;
+	
+}
+#titre{
+	font-family:Kristen ITC;
+	text-shadow: 0px 7px 7px green;
+	text-align:center;
+}
+.soustitre{
+	text-align:center;
+	font-family:Kristen ITC;
+}
+p {
+	text-align:center;
+	
+}
+#gingerman{
+	display : block;
+    float   : left;
+	height:120px;
+	cursor: pointer;
+}
+.row {
+	padding-left:20px;
+
+	padding-right:20px;
+}
+.col-md-4 {
+	border:3px solid brown;
+	height: 250px;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	background-image:url(../img/frozen.jpg);
+	
+}
+#bouton {
+	margin-top: 10px;
+	text-align: center;
+}
+
+#tresor{
+	height:120px;
+	display : block;
+    float   : right;
+}
+
+#figure1{
+	display:none;	
+    float   : left;
+	height:90px;
+}
+
+#figure2{
+	display:none;	
+    float   : left;
+	height:90px;
+}
+
+#figure3{
+	display:none;	
+    float   : left;
+	height:90px;
+}
+
+#figure4{
+	display:none;
+    float   : left;
+	height:80px;
+}
+
+#figure5{
+	display:none;	
+    float   : left;
+	height:80px;
+}
+
+#figure6{
+	display:none;	
+    float   : left;
+	height:70px;
+}
+#figure7{
+	opacity:0;
+	height:50px;
+	padding-left:250px;
+
+
+}
+#info2{
+	height: 30px;
+	margin-top: 130px;
+}
+#info{
+	height: 100px;
+
+}
+#info3{
+	height: 70px;
+
+}
+#info4 {
+	font-weight:bold;
+		height: 100px;
+
+}
+#info5 {
+	font-weight:bold;
+		
+	
+}
+#info6 {
+	font-weight:bold;
+		height: 100px;
+	
+}
+#nourriture{
+
+border:2px solid green;
+}
+#textGob{
+	display:none;
+}
+#mini1{
+	height:50px;
+	position:relative;
+	margin-left:0%;
+}
+#mini2{
+	height:50px;
+	float:right;
+}
+#minitresor{
+	height:50px;
+	float:right;
+	opacity : 0;
+}

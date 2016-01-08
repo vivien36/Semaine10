@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Semaine 10</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> <!--lien vers le CDN de Bootstrap-->
+</head>
+
+<body>
+    <div id="titre"><h1>Ginger Cliker</h1></div>
+	<div class="row">
+		<div class="col-md-4">
+		<div class="soustitre"><p>GINGERMAN</p></div>
+			<div id="affichage"></div>
+			<br/>
+			<div id="ginger">
+				<img src="img/gingerman.png" alt="gingerman" id="gingerman" onmousedown="mouseDown()"onmouseup="mouseUp()"/>
+						
+				<img src="img/tresor.png" alt="gingerman" id="tresor"/>
+		</div>
+		<div id="info2"></div>
+			</div>
+		
+		
+		
+		<div class="col-md-4">
+		<div class="soustitre"><p>BONUS</p></div>
+			<div id= "bouton">
+				<p><button id="multiplicateur"class="btn btn-primary"></button></p>
+				<p><button id="autoclick" class="btn btn-primary"></button></p>
+				<p><button id="ami" class="btn btn-primary">échanger 200 clic contre 1 ami</button></p>
+				<p><button id="bonus" class="btn btn-primary">Tenter sa chance !</button></p>
+				<p><button id="nourriture"class="btn btn-primary"> Ajouter 50 biscuits .</button></p>
+				
+			</div>		
+		</div>
+		
+		
+		
+		<div class="col-md-4">
+		<div class="soustitre"><p>INFORMATION</p></div>
+			<div id="info"></div>
+			<div id="info3"></div>
+		</div>
+	
+	</div>
+	<div id="route">
+		<img src="img/gingerman.png" alt="gingerman" id="mini1">
+		<img src="img/goblin.png" alt="gobelin" id="mini2">
+		<img src="img/tresor.png" alt="gingerman" id="minitresor"/>
+	</div>
+	<div class="row">
+		<div class="col-md-4">
+			<img src="img/gingerman.png" alt="gingerman" id="figure1">
+			<img src="img/elf.png" alt="elf" id="figure2">
+			<img src="img/penguin.png" alt="penguin" id="figure3">
+			<img src="img/sheep.png" alt="sheep" id="figure4">
+			<img src="img/ghost.png" alt="ghost" id="figure5">
+			<img src="img/fish.png" alt="fish" id="figure6">
+		</div>	
+		<div class="col-md-4">
+		<div id="info4"></div>
+		<div id="info6"></div>
+		</div>
+		<div class="col-md-4">
+		<div class="soustitre" id="textGob"><p>GOBELIN</p></div>
+		<div id="info5"></div>
+		<img src="img/goblin.png" alt="gobelin" id="figure7">
+		
+		</div>
+	</div>
+<script src="jquery/jquery.min.js"></script>
+<script src="script.js"></script>
+</body>
+
+</html>
